@@ -3,3 +3,30 @@
   padding: 0;
   font-family: "Open Sans", sans-serif;
 }
+/*Globall*/
+:root {
+  /*color*/
+  --color-whtite: #ffffff;
+  --color-blue: blue;
+  --color-dark-grey: #4d4d4d;
+  --color-blak: #000000;
+
+  /*font size*/
+  --font-large: 48px;
+  --font-medium: 28px;
+  --font-regular: 18px;
+  --font-small: 16px;
+  --font-micro: 14px;
+
+  /*font weigth*/
+  --weight-bold: 700;
+  --weight-semi-bold: 600;
+  --weight-regular: 400;
+
+  /*size*/
+}
+
+/*univerxal tags*/
+* {
+  box-sizing: border-box;
+}
