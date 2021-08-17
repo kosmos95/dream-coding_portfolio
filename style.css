@@ -9,7 +9,7 @@
   --color-whtite: #ffffff;
   --color-blue: blue;
   --color-dark-grey: #4d4d4d;
-  --color-blak: #000000;
+  --color-black: #000000;
 
   /*font size*/
   --font-large: 48px;
@@ -29,4 +29,33 @@
 /*univerxal tags*/
 * {
   box-sizing: border-box;
+}
+
+/*typography*/
+h1 {
+  font-size: var(--font-large);
+  font-weight: var(--weight-bold);
+  color: var(--color-black);
+  margin: 16px 0px;
+}
+
+h2 {
+  font-size: var(--font-regular);
+  font-weight: var(--weight-semi-bold);
+  color: var(--color-black);
+  margin: 8px 0;
+}
+
+h3 {
+  font-size: var(--font-regular);
+  font-weight: var(--weight-regular);
+  color: var(--color-black);
+  margin: 8px 0;
+}
+
+p {
+  font-size: var(--font-regular);
+  font-weight: var(--weight-regular);
+  color: var(--color-black);
+  margin: 8px 0;
 }
