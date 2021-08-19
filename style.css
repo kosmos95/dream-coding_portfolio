@@ -6,6 +6,7 @@
   --color-dark-grey: #4d4d4d;
   --color-black: #000000;
   --color-pink: #d864ce;
+  --color-yellow: #c9e914;
 
   /*font size*/
   --font-large: 48px;
@@ -154,10 +155,13 @@ p {
 .section {
   padding: 50px;
   text-align: center;
-  max-width: 1200px;
   margin: auto; /*section의 마진을 가운데 기준으로 일정하게 해준다.*/
 }
 
+.section_container {
+  max-width: 1200px;
+  margin: auto;
+}
 /* about */
 .about_majors {
   display: flex;
@@ -221,4 +225,60 @@ p {
 
 .projects_period {
   font-size: var(--font-micro);
+}
+
+/* Skill */
+
+#skills {
+  background-color: var(--color-yellow);
+}
+
+.skillset {
+  display: flex;
+  background-color: rgb(63, 58, 58);
+  color: var(--color-whtite);
+  margin: 20px 0;
+}
+
+.sillset_title {
+  color: var(--color-whtite);
+}
+
+.skillset_left {
+  flex-basis: 60%; /* flex의 사이즈를 결정한다 */
+  background-color: var(--color-dark-grey);
+  padding: 20px 40px;
+}
+
+.skill {
+  margin-bottom: 32px;
+}
+
+.skill_description {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skill_bar {
+  width: 100%;
+  height: 3px;
+  background-color: gray;
+}
+
+.skill_value {
+  height: 3px;
+  background-color: orange;
+}
+
+.skillset_right {
+  flex-basis: 40%;
+}
+
+.tools {
+  background-color: gray;
+}
+
+.tools,
+.etc {
+  padding: 20px;
 }
