@@ -68,7 +68,7 @@ h1 {
 }
 
 h2 {
-  font-size: var(--font-regular);
+  font-size: var(--font-medium);
   font-weight: var(--weight-semi-bold);
   color: var(--color-black);
   margin: 8px 0;
@@ -422,4 +422,30 @@ p {
 
 .testimonial_speech-bubble a {
   color: var(--color-pink);
+}
+
+/* contact */
+#contact {
+  background-color: var(--color-pink);
+}
+
+.contact-rights,
+.contact_email,
+.contact_title {
+  color: var(--color-whtite);
+}
+
+.contact_title {
+  margin: 32px 0px;
+}
+
+.contact_link {
+  font-size: var(--font-large);
+  margin: 24px 0;
+  transition: all var(--animaiton-duration) ease-in;
+}
+
+.contact_link i:hover {
+  transform: scale(1.1);
+  color: var(--color-yellow);
 }
