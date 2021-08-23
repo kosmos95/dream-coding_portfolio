@@ -381,3 +381,45 @@ p {
   height: 2px;
   background-color: var(--color-whtite);
 }
+
+/* testerminal */
+#testimonials {
+  background-color: lightgray;
+}
+
+.testimonials {
+  margin: 40px;
+}
+
+.testimonial {
+  display: flex;
+  margin: 32px 0px;
+}
+
+.testimonial_avarta {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.testimonial_avarta:nth-child(odd) {
+  margin-right: 40px;
+}
+
+.testimonial_avarta:nth-child(even) {
+  margin-left: 40px;
+}
+
+.testimonial_speech-bubble {
+  padding: 18px;
+  background-color: var(--color-whtite);
+  border-radius: var(--size-border-radius);
+}
+
+.testimonial_speech-bubble p {
+  color: var(--color-dark-grey);
+}
+
+.testimonial_speech-bubble a {
+  color: var(--color-pink);
+}
